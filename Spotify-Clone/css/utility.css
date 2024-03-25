@@ -1,0 +1,75 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.items-align{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 5px;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.p-1{
+    padding: 15px;
+}
+
+/* Apply to all scrollable elements */
+::-webkit-scrollbar {
+    width: 5px; /* width of the scrollbar */
+}
+::-webkit-scrollbar{
+    display:none ;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #333; /* color of the scrollbar handle */
+    border-radius: 5px; /* rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* darker color when hovered */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #222; /* color of the scrollbar track */
+}
+
+/* Add some padding to the sides of the scrollbar track */
+::-webkit-scrollbar-track-piece:start {
+    background: transparent; /* color of the scrollbar track */
+    margin-top: 5px;
+}
+
+::-webkit-scrollbar-track-piece:end {
+    background: transparent; /* color of the scrollbar track */
+    margin-bottom: 5px;
+}
+
+
+/* .image{
+    transition: all 5s;
+} */
