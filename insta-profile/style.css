@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 250px auto 180px;
+    grid-template-rows: 220px 120px auto;
+    background-color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;;
+}
+
+.profile-container{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    cursor: pointer;
+}
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-right: 80px;
+    /* outline: 2px solid white;
+    outline-offset: 2px; */
+    background: linear-gradient(90deg, red, #0020ff);
+    padding: 2px;
+}
+.profile:hover{
+    width: 153px;
+    height: 153px;
+}
+
+/* user-name Container */ 
+
+
+.about-container{
+    height: 100%;
+    width: 500px;
+    margin-top: 50px;
+}
+#user-container{
+    box-sizing: border-box;
+   display: grid;
+    grid-template-columns: 137px 109px 118px 42px;
+    align-items: center;
+}
+.about{    
+    height: 40px;
+}
+.about-username{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    cursor: pointer;
+}
+button{
+    background-color: rgb(54, 54, 54);
+    border-radius: 9px;
+    height: 35px;
+    width: 100px;
+    color: white;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(38, 38, 38);
+}
+.settings-icon:hover{
+    cursor: pointer;
+}
+
+
+/* Follow container*/
+
+#about-follow{
+    display: grid;
+    grid-template-columns: 72px 121px 200px;
+    align-items: center;
+    margin-top: 6px;
+}
+.follow-p{
+    color: white;
+}
+#about-description{
+    height: 15vh;
+    margin-top: 10px;
+    color: white;
+}
+.username2{
+    font-weight: bold;
+}
+.a-bio{
+    text-decoration: none;
+    color: lightblue;
+}
+
+
+
+
+.highlights-container{
+    box-sizing: border-box;
+    height: 100%;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-left: 250px;  
+    cursor: pointer;
+}
+.highlight{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline-offset: 2px;
+    outline: 2px solid #5a5a5a;
+}
+.highlight:hover{
+    height: 86px;
+    width: 86px;
+}
+.image-container{
+    box-sizing: border-box;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-left: 250px;
+    overflow-y:auto;
+    scrollbar-width:none;
+    cursor: pointer;
+    
+}
+.image{
+    height: 278px;
+    width: 278px;
+    box-sizing: border-box;
+}
+.sidebar{
+    grid-row: 1/4;
+    grid-column: 1/2;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.instagram{
+    color: white;
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.logo-container{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+.logo-container:hover{
+    height: 24px;
+    outline: 1px solid white;
+    border-radius: 5px;
+    outline-offset: 8px;
+}
+
+.sidebar-p{
+    color: white;
+    margin-left: 20px;
+    font-size: 17px;
+    align-self: center;
+}
+#threads-container{
+    position: absolute;
+    bottom: 60px;
+    width: 245px;
+}
+#more-container{
+    position: absolute;
+    bottom: 0px;
+    width: 245px;
+}
+
+.img-apear{
+    height: 400px;
+    width: 400px;
+    position:relative;
+    left: 0px;
+}
+.small-image-apear{
+    position: absolute;
+    left: 717px;
+    top: 237px;
+    height: 400px;
+    border-top: 52px solid rgb(49, 49, 49);
+    border-bottom: 52px solid rgb(21, 21, 21);
+    border-radius: 7px;
+    visibility: hidden;
+}
+.profile-apear{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 316px;
+    top: -47px;
+    border-radius: 100px;
+}
+.username-appear{
+    position: absolute;
+    right: 226px;
+    top: -36px;
+    font-size: 15px;
+    color: white;
+}
+.heart-apear{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 17px;
+    top: -35px;
+}
+.image3:hover ~ .small-image-apear{
+    visibility: visible;
+    transform: scale(1.1);
+    transition: transform 4s ease-in-out 0.2s;
+}
+/* .image3{
+    transition: scale 4s ease-in-out 1s;
+} */
