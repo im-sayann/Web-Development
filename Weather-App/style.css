@@ -34,6 +34,7 @@ body{
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
+    width: 100px;
 }
 .search input:hover{
     background: #d7f9f9;
@@ -101,4 +102,17 @@ body{
     margin-left: 10px;
     margin-top: 10px;
     display: none;
+}
+
+@media (max-width:500px) {
+    .weather h1{
+        font-size: 50px;
+    }
+    .weather h2{
+        font-size: 30px;
+    }
+    .col p{
+        font-size: 15px;
+    }
+    
 }
