@@ -1,14 +1,8 @@
 # Check Spotify Clone website 
 [Spotify Clone](https://spotifysayan.freewebhostmost.com/)<br><br>
 
-# Spotify Clone Webpage<br>
-This webpage is a Spotify clone that is highly responsive, adapting well to different screen sizes. <br><br>
-
-## Author<br>
-Sayan Das<br><br>
-
-## Contact<br>
-For any inquiries or feedback, feel free to contact me at yosayan007@gmail.com.<br><br>
+# Spotify Clone Website<br>
+This website is a Spotify clone that is highly responsive, adapting well to different screen sizes. <br><br>
 
 ## Getting Started<br><br>
 To use this project, follow these steps:<br>
