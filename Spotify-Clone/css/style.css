@@ -456,7 +456,7 @@ p {
         height: calc(66vh - 50px);
     }
     .card{
-        width: 187px;
+        width: auto;
         display: grid;
         margin: 0px 0;
         padding: 0px;
@@ -466,7 +466,7 @@ p {
         margin-top: 5px;
     }
     .card h2, p{
-        margin-left: 77px;
+        margin-left: 20vw;
     }
     .card h2{
         font-size: 15px;
@@ -484,7 +484,8 @@ p {
         overflow: auto;
         height: fit-content;
         justify-content: center;
-        
+        display: grid;
+        grid-template-columns: repeat(1, 1fr 1fr);
         
         
     }
@@ -492,7 +493,7 @@ p {
         display: none;
     }
     .card img{
-        width: 38%;
+        width: 18vw;
         border-radius: 7px 0px 0px 7px;
         margin-left: 0px;
         position: absolute;
