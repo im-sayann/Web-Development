@@ -239,7 +239,7 @@ span {
 }
 
 .typing-text span::before {
-    content: 'Software Developer';
+    content: 'Web Developer';
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -271,7 +271,7 @@ span {
 
     21%,
     40% {
-        content: 'Software Developer';
+        content: 'Frontent Developer';
     }
 
     41%,
@@ -286,7 +286,7 @@ span {
 
     81%,
     100% {
-        content: 'Youtuber';
+        content: 'Video Editor';
     }
 }
 
@@ -367,10 +367,13 @@ span {
 
 .service-box {
     background-color: var(--main-color);
-    height: 300px;
+    height: 350px;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .service-box:hover {
@@ -989,6 +992,8 @@ footer .copyright {
 
     .services-container {
         grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
     }
 }
 
